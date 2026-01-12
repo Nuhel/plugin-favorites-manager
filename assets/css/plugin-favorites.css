@@ -1,0 +1,22 @@
+.plugin-favorite-link {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.plugin-favorite-link.is-favorite {
+    color: #f0b849;
+}
+
+.plugin-favorite-link:hover {
+    opacity: 0.7;
+}
+
+.view-favorites .count {
+    color: #646970;
+}
+
+.view-favorites.current .count {
+    color: #2271b1;
+}
