@@ -9,6 +9,7 @@
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: plugin-favorites
+ * Domain Path: /languages/
  */
 
 // Exit if accessed directly
@@ -23,6 +24,8 @@ class Plugin_Favorites_Manager {
     private $user_meta_key = 'favorite_plugins';
     
     public function __construct() {
+        add_action('plugins_loaded', array($this, 'load_textdomain'));
+        
         // Add favorite toggle to plugin rows
         add_filter('plugin_action_links', array($this, 'add_favorite_link'), 10, 4);
         
@@ -37,6 +40,17 @@ class Plugin_Favorites_Manager {
       
         // Set favorites as default view if user has favorites
         add_action('admin_init', array($this, 'set_default_favorites_view'));
+    }
+
+    /**
+     * Load plugin text domain for translations
+     */
+    public function load_textdomain() {
+        load_plugin_textdomain(
+            'plugin-favorites',
+            false,
+            dirname(plugin_basename(__FILE__)) . '/languages/'
+        );
     }
 
     /**

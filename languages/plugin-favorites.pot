@@ -1,0 +1,57 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Favorites Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-12 09:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.9\n"
+"X-Domain: plugin-favorites"
+
+#: plugin-favorites.php:108
+msgid "Add to favorites"
+msgstr ""
+
+#: plugin-favorites.php:138
+msgid "Favorites"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/bdtanbir/plugin-favorites-manager"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tanbirahmod.com"
+msgstr ""
+
+#: plugin-favorites.php:180
+msgid "Insufficient permissions"
+msgstr ""
+
+#: plugin-favorites.php:187
+msgid "Invalid plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "Mark plugins as favorites for quick access with a custom filter tab"
+msgstr ""
+
+#. Name of the plugin
+msgid "Plugin Favorites Manager"
+msgstr ""
+
+#: plugin-favorites.php:107
+msgid "Remove from favorites"
+msgstr ""
+
+#. Author of the plugin
+msgid "Tanbir Ahmod"
+msgstr ""
